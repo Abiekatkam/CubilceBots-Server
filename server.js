@@ -5,7 +5,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 dotenv.config();
 
-const port = preocess.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
